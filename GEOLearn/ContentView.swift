@@ -7,15 +7,53 @@
 
 import SwiftUI
 
+//custom colors, these are stored in the Colors folder in the Assets, feel free to change the colors or add more if needed
+extension Color {
+    static let customBrown = Color("customBrown")
+    static let customBeige = Color("customBeige")
+    static let customLightBlue = Color("customLightBlue")
+    static let customGreen = Color("customGreen")
+    static let customTeal = Color("customTeal")
+    static let customOrange = Color("customOrange")
+}
+
 struct ContentView: View {
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        //ZStack to set up the background color
+        ZStack {
+            Color.customBeige
+                .edgesIgnoringSafeArea(.all)
         }
-        .padding()
+            NavigationStack {
+                VStack {
+                    //start with a VStack for the entirety of the page
+                Text("Image placeholder")
+                        .font(.title2)
+                    //this is where the image will go
+                }
+                .toolbar {
+                    //this is the Navbar setup of the app
+                    NavigationLink(destination:TestPage()) {
+                        Text("1")
+                            .fontWeight(.bold)
+                    }
+                    NavigationLink(destination:TestPage()) {
+                        Text("2")
+                            .fontWeight(.bold)
+                    }
+                    NavigationLink(destination:TestPage()) {
+                        Text("3")
+                            .fontWeight(.bold)
+
+                    }
+                    NavigationLink(destination:TestPage()) {
+                        Text("4")
+                            .fontWeight(.bold)
+
+                }
+            }
+        }
     }
 }
 
