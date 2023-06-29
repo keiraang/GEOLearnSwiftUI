@@ -15,6 +15,8 @@
 		995ADF652A4B5FCE00F5F863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995ADF642A4B5FCE00F5F863 /* Assets.xcassets */; };
 		995ADF682A4B5FCE00F5F863 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995ADF672A4B5FCE00F5F863 /* Preview Assets.xcassets */; };
 		BD58DF032A4CAA3400026C35 /* TestPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD58DF022A4CAA3400026C35 /* TestPage.swift */; };
+		BDC7CC062A4D48BE00304A59 /* MiddleEast.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7CC052A4D48BD00304A59 /* MiddleEast.swift */; };
+		BDC7CC082A4D48CA00304A59 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC7CC072A4D48CA00304A59 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		995ADF642A4B5FCE00F5F863 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		995ADF672A4B5FCE00F5F863 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BD58DF022A4CAA3400026C35 /* TestPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage.swift; sourceTree = "<group>"; };
+		BDC7CC052A4D48BD00304A59 /* MiddleEast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleEast.swift; sourceTree = "<group>"; };
+		BDC7CC072A4D48CA00304A59 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 			children = (
 				995ADF602A4B5FCC00F5F863 /* GEOLearnApp.swift */,
 				995ADF622A4B5FCC00F5F863 /* ContentView.swift */,
+				BDC7CC072A4D48CA00304A59 /* CustomTabBar.swift */,
+				BDC7CC052A4D48BD00304A59 /* MiddleEast.swift */,
 				BD58DF022A4CAA3400026C35 /* TestPage.swift */,
 				994E2A7C2A4D27F3002931EE /* TestPage2.swift */,
 				994E2A7E2A4D2813002931EE /* TestPage3.swift */,
@@ -153,6 +159,8 @@
 				994E2A7D2A4D27F3002931EE /* TestPage2.swift in Sources */,
 				BD58DF032A4CAA3400026C35 /* TestPage.swift in Sources */,
 				994E2A812A4D282A002931EE /* TestPage4.swift in Sources */,
+				BDC7CC082A4D48CA00304A59 /* CustomTabBar.swift in Sources */,
+				BDC7CC062A4D48BE00304A59 /* MiddleEast.swift in Sources */,
 				994E2A7F2A4D2813002931EE /* TestPage3.swift in Sources */,
 				995ADF612A4B5FCC00F5F863 /* GEOLearnApp.swift in Sources */,
 			);
