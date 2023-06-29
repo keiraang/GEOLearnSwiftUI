@@ -9,7 +9,22 @@ import SwiftUI
 
 struct RecipeMiddleEast: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack {
+                Text("This is the recipe page")
+            
+                NavigationLink (destination: ContentView()) {
+                    Text("Home")
+                        .font(.title3)
+                        .fontWeight(.light)
+                    //change to navlink eventally
+                        .padding(.leading, 10.0)
+                        .foregroundColor(.black)
+                        .underline()
+                }
+                
+            }
+        }
     }
 }
 

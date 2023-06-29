@@ -20,7 +20,7 @@ struct MiddleEast: View {
                         VStack {
                             ZStack {
                                 RoundedRectangle(cornerRadius: 20)
-                                    .fill(Color("customBrown"))
+                                    .fill(Color("customGreen"))
                                     .frame(width:350, height: 350)
                                     .padding(5)
                                 
@@ -37,7 +37,7 @@ struct MiddleEast: View {
                                 .fontWeight(.bold)
                                 .multilineTextAlignment(.leading)
                                 .padding(/*@START_MENU_TOKEN@*/[.top, .leading, .trailing]/*@END_MENU_TOKEN@*/)
-                                .foregroundColor(Color("customBrown"))
+                                .foregroundColor(Color("customGreen"))
                             
                             VStack(alignment: .leading){
                                 
@@ -45,7 +45,7 @@ struct MiddleEast: View {
                                     Rectangle()
                                         .frame(width: 325, height:125)
                                         .cornerRadius(20)
-                                        .foregroundColor(Color("customBrown"))
+                                        .foregroundColor(Color("customGreen"))
                                         .padding(.horizontal)
                                     
                                     HStack(alignment: .center) {
@@ -89,7 +89,7 @@ struct MiddleEast: View {
                                     Rectangle()
                                         .frame(width: 325, height:125)
                                         .cornerRadius(20)
-                                        .foregroundColor(Color("customBrown"))
+                                        .foregroundColor(Color("customGreen"))
                                         .padding(.horizontal)
                                     VStack(alignment: .leading) {
                                         HStack(alignment: .center) {
@@ -131,7 +131,7 @@ struct MiddleEast: View {
                                     Rectangle()
                                         .frame(width: 325, height:125)
                                         .cornerRadius(20)
-                                        .foregroundColor(Color("customBrown"))
+                                        .foregroundColor(Color("customGreen"))
                                         .padding(.horizontal)
                                     
                                     VStack(alignment: .leading) {
@@ -177,7 +177,7 @@ struct MiddleEast: View {
                                     Rectangle()
                                         .frame(width: 325, height:50)
                                         .cornerRadius(20)
-                                        .foregroundColor(Color("customBrown"))
+                                        .foregroundColor(Color("customGreen"))
                                         .padding(.horizontal)
                                     
                                     VStack(alignment: .leading) {
