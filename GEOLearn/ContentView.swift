@@ -21,11 +21,10 @@ struct ContentView: View {
     
     var body: some View {
         //ZStack to set up the background color
-        ZStack {
-            Color.customBeige
-                .edgesIgnoringSafeArea(.all)
-        }
-            NavigationStack {
+        NavigationStack {
+            ZStack {
+                Color.customBeige
+                    .edgesIgnoringSafeArea(.all)
                 VStack {
                     //start with a VStack for the entirety of the page
                 Text("Image placeholder")
@@ -38,21 +37,25 @@ struct ContentView: View {
                         Text("1")
                             .fontWeight(.bold)
                     }
-                    NavigationLink(destination:TestPage()) {
+                    NavigationLink(destination:TestPage2()) {
                         Text("2")
                             .fontWeight(.bold)
                     }
-                    NavigationLink(destination:TestPage()) {
+                    NavigationLink(destination: TestPage3()) {
                         Text("3")
                             .fontWeight(.bold)
-
+                        
                     }
-                    NavigationLink(destination:TestPage()) {
+                    NavigationLink(destination:TestPage4()) {
                         Text("4")
                             .fontWeight(.bold)
-
+                        
+                    }
+                    
                 }
+                
             }
+            .navigationBarBackButtonHidden(true)
         }
     }
 }

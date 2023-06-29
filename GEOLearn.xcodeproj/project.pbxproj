@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		994E2A7D2A4D27F3002931EE /* TestPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E2A7C2A4D27F3002931EE /* TestPage2.swift */; };
+		994E2A7F2A4D2813002931EE /* TestPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E2A7E2A4D2813002931EE /* TestPage3.swift */; };
+		994E2A812A4D282A002931EE /* TestPage4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 994E2A802A4D282A002931EE /* TestPage4.swift */; };
 		995ADF612A4B5FCC00F5F863 /* GEOLearnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995ADF602A4B5FCC00F5F863 /* GEOLearnApp.swift */; };
 		995ADF632A4B5FCC00F5F863 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995ADF622A4B5FCC00F5F863 /* ContentView.swift */; };
 		995ADF652A4B5FCE00F5F863 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995ADF642A4B5FCE00F5F863 /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		994E2A7C2A4D27F3002931EE /* TestPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage2.swift; sourceTree = "<group>"; };
+		994E2A7E2A4D2813002931EE /* TestPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage3.swift; sourceTree = "<group>"; };
+		994E2A802A4D282A002931EE /* TestPage4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPage4.swift; sourceTree = "<group>"; };
 		995ADF5D2A4B5FCC00F5F863 /* GEOLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GEOLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		995ADF602A4B5FCC00F5F863 /* GEOLearnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEOLearnApp.swift; sourceTree = "<group>"; };
 		995ADF622A4B5FCC00F5F863 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,6 +62,9 @@
 				995ADF602A4B5FCC00F5F863 /* GEOLearnApp.swift */,
 				995ADF622A4B5FCC00F5F863 /* ContentView.swift */,
 				BD58DF022A4CAA3400026C35 /* TestPage.swift */,
+				994E2A7C2A4D27F3002931EE /* TestPage2.swift */,
+				994E2A7E2A4D2813002931EE /* TestPage3.swift */,
+				994E2A802A4D282A002931EE /* TestPage4.swift */,
 				995ADF642A4B5FCE00F5F863 /* Assets.xcassets */,
 				995ADF662A4B5FCE00F5F863 /* Preview Content */,
 			);
@@ -141,7 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				995ADF632A4B5FCC00F5F863 /* ContentView.swift in Sources */,
+				994E2A7D2A4D27F3002931EE /* TestPage2.swift in Sources */,
 				BD58DF032A4CAA3400026C35 /* TestPage.swift in Sources */,
+				994E2A812A4D282A002931EE /* TestPage4.swift in Sources */,
+				994E2A7F2A4D2813002931EE /* TestPage3.swift in Sources */,
 				995ADF612A4B5FCC00F5F863 /* GEOLearnApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

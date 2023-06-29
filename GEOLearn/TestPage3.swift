@@ -1,19 +1,19 @@
 //
-//  TestPage.swift
+//  Test Page3.swift
 //  GEOLearn
 //
-//  Created by Scholar on 6/28/23.
+//  Created by Keira Ang on 6/28/23.
 //
 
 import SwiftUI
 
-struct TestPage: View {
+struct TestPage3: View {
     var body: some View {
         NavigationStack {
             ZStack {
                 VStack {
                     
-                    Text("Image placeholder 1")
+                    Text("Image placeholder 3")
                         .font(.title2)
                     //this is where the image will go
                 }.toolbar {
@@ -37,15 +37,16 @@ struct TestPage: View {
                         
                     }
                 }
-                .navigationBarBackButtonHidden(true)
                 
             }
         }
+        .navigationBarBackButtonHidden(true)
+        
     }
 }
 
-struct TestPage_Previews: PreviewProvider {
+struct TestPage3_Previews: PreviewProvider {
     static var previews: some View {
-        TestPage()
+        TestPage3()
     }
 }
