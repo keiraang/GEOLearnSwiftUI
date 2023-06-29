@@ -26,6 +26,7 @@ struct CustomTabBar: View {
                 TestPage4()
                     .tabItem {
                         Label("Settings", systemImage: "gearshape")
+                            
                 }
             }
         }

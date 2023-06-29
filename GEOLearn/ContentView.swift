@@ -71,12 +71,15 @@ struct ContentView: View {
                                 .foregroundColor(.white)
                                 .background(Color("customTeal"))
                                 .cornerRadius(15)
+                                
                         }
+                      
+
                     }
                     //HStack 1 end
                     //HStack 2 start
                     HStack (spacing:40) {
-                        Button(action:{}) {
+                        NavigationLink (destination: MiddleEast()){
                             Text("hi")
                                 .fontWeight(.bold)
                                 .font(.title2)
