@@ -31,11 +31,8 @@ struct TestPage3: View {
                             .fontWeight(.bold)
                         
                     }
-                    NavigationLink(destination:TestPage4()) {
-                        Text("4")
-                            .fontWeight(.bold)
-                        
-                    }
+                                            
+                    
                 }
                 
             }

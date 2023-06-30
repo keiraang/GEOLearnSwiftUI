@@ -10,36 +10,28 @@ import SwiftUI
 struct TestPage2: View {
     var body: some View {
         NavigationStack {
-            ZStack {
-                VStack {
+            ScrollView(.vertical, showsIndicators: false) {
+                ZStack {
+                    VStack {
+                        Rectangle()
+                            .frame(height:350)
+                            .foregroundColor(.white)
+                        Text("404 Page not found")
+                            .fontWeight(.bold)
+                        Text("(Australia doesn't exist)")
+                        
+                        Rectangle()
+                            .frame(height:350)
+                            .foregroundColor(.white)
+                        Rectangle()
+                            .frame(height:350)
+                            .foregroundColor(.white)
+                        Text("Just a joke haha")
+                        
+                    }
                     
-                    Text("Image placeholder 2")
-                        .font(.title2)
-                    //this is where the image will go
-                }.toolbar {
-                    //this is the Navbar setup of the app
-                    NavigationLink(destination:TestPage()) {
-                        Text("1")
-                            .fontWeight(.bold)
-                    }
-                    NavigationLink(destination:TestPage2()) {
-                        Text("2")
-                            .fontWeight(.bold)
-                    }
-                    NavigationLink(destination:TestPage3()) {
-                        Text("3")
-                            .fontWeight(.bold)
-                        
-                    }
-                    NavigationLink(destination:TestPage4()) {
-                        Text("4")
-                            .fontWeight(.bold)
-                        
-                    }
                 }
-                
             }
-            .navigationBarBackButtonHidden(true)
         }
     }
 }

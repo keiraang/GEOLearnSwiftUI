@@ -23,11 +23,7 @@ struct CustomTabBar: View {
                     .tabItem {
                         Label("Favorites", systemImage: "heart")
                     }
-                TestPage4()
-                    .tabItem {
-                        Label("Settings", systemImage: "gearshape")
                             
-                }
             }
         }
     }

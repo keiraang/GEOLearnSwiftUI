@@ -20,7 +20,7 @@ struct MiddleEast: View {
                         VStack {
                             ZStack {
                                 RoundedRectangle(cornerRadius: 20)
-                                    .fill(Color("customGreen"))
+                                    .fill(Color(red: 0.862, green: 0.696, blue: 0.508))
                                     .frame(width:350, height: 350)
                                     .padding(5)
                                 
@@ -37,7 +37,7 @@ struct MiddleEast: View {
                                 .fontWeight(.bold)
                                 .multilineTextAlignment(.leading)
                                 .padding(/*@START_MENU_TOKEN@*/[.top, .leading, .trailing]/*@END_MENU_TOKEN@*/)
-                                .foregroundColor(Color("customGreen"))
+                                .foregroundColor(Color("customBrown"))
                             
                             VStack(alignment: .leading){
                                 
@@ -45,7 +45,7 @@ struct MiddleEast: View {
                                     Rectangle()
                                         .frame(width: 325, height:125)
                                         .cornerRadius(20)
-                                        .foregroundColor(Color("customGreen"))
+                                        .foregroundColor(Color(red: 0.862, green: 0.696, blue: 0.508))
                                         .padding(.horizontal)
                                     
                                     HStack(alignment: .center) {
@@ -70,14 +70,14 @@ struct MiddleEast: View {
                                                     .fontWeight(.semibold)
                                                 //change to navlink eventally
                                                     .padding(.leading, 10.0)
-                                                    .foregroundColor(.white)
+                                                    .foregroundColor(Color("customBrown"))
                                                     .underline()
                                             }
                                             Text("Morocco")
                                                 .font(.title3)
                                                 .fontWeight(.light)
                                             //.multilineTextAlignment(.leading)
-                                                .foregroundColor(Color.white)
+                                                .foregroundColor(Color("customBrown"))
                                                 .padding(.leading, 10.0)
                                         }
                                     }
@@ -89,7 +89,7 @@ struct MiddleEast: View {
                                     Rectangle()
                                         .frame(width: 325, height:125)
                                         .cornerRadius(20)
-                                        .foregroundColor(Color("customGreen"))
+                                        .foregroundColor(Color(red: 0.862, green: 0.696, blue: 0.508))
                                         .padding(.horizontal)
                                     VStack(alignment: .leading) {
                                         HStack(alignment: .center) {
@@ -113,12 +113,12 @@ struct MiddleEast: View {
                                                     .fontWeight(.semibold)
                                                     .padding(.leading, 10.0)
                                                 //change to navlink eventally
-                                                    .foregroundColor(.white)
+                                                    .foregroundColor(Color("customBrown"))
                                                 Text("Abu (from Iraq)")
                                                     .font(.title3)
                                                     .fontWeight(.light)
                                                 //.multilineTextAlignment(.leading)
-                                                    .foregroundColor(Color.white)
+                                                    .foregroundColor(Color("customBrown"))
                                                     .padding(.leading, 10.0)
 
                                             }
@@ -131,7 +131,7 @@ struct MiddleEast: View {
                                     Rectangle()
                                         .frame(width: 325, height:125)
                                         .cornerRadius(20)
-                                        .foregroundColor(Color("customGreen"))
+                                        .foregroundColor(Color(red: 0.862, green: 0.696, blue: 0.508))
                                         .padding(.horizontal)
                                     
                                     VStack(alignment: .leading) {
@@ -152,21 +152,21 @@ struct MiddleEast: View {
                                                     .padding(.leading, -10)
                                             }
                                             VStack(alignment: .leading) {
-                                                NavigationLink (destination: TestPage2()) {
+                                                NavigationLink (destination: TestPage()) {
                                                     Text("The Blue Mosque")
                                                         .font(.title2)
                                                         .underline()
                                                         .fontWeight(.semibold)
                                                     //change to navlink eventally
                                                         .padding(.leading, 10.0)
-                                                        .foregroundColor(.white)
+                                                        .foregroundColor(Color("customBrown"))
                                                 }
                                                     
                                                     Text("Istanbul, Turkey")
                                                     .font(.title3)
                                                     .fontWeight(.light)
                                                 //.multilineTextAlignment(.leading)
-                                                    .foregroundColor(Color.white)
+                                                    .foregroundColor(Color("customBrown"))
                                                     .padding(.leading, 10.0)
                                             }
                                         }
@@ -177,7 +177,7 @@ struct MiddleEast: View {
                                     Rectangle()
                                         .frame(width: 325, height:50)
                                         .cornerRadius(20)
-                                        .foregroundColor(Color("customGreen"))
+                                        .foregroundColor(Color(red: 0.862, green: 0.696, blue: 0.508))
                                         .padding(.horizontal)
                                     
                                     VStack(alignment: .leading) {
@@ -188,7 +188,7 @@ struct MiddleEast: View {
                                                 .fontWeight(.light)
                                             //change to navlink eventally
                                                 .padding(.leading, 10.0)
-                                                .foregroundColor(.white)
+                                                .foregroundColor(Color("customBrown"))
                                                 .underline()
                                         }
                                         

@@ -55,7 +55,7 @@ struct ContentView: View {
                             .resizable()
                             .aspectRatio(contentMode: .fit)
                             .cornerRadius(20)
-                            .padding()
+                            .padding([.top, .leading, .trailing], 30)
                         Text("Teleport to...")
                             .fontWeight(.bold)
                             .font(.system(size:36))
@@ -67,7 +67,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.214, green: 0.244, blue: 0.053))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage2()) {
                                     Text("Australia")
                                         .fontWeight(.bold)
                                         .font(.title2)
@@ -79,7 +79,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.235, green: 0.0, blue: 0.0))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage()) {
                                     Text("East \nAfrica")
                                         .fontWeight(.bold)
                                         .font(.title2)
@@ -96,7 +96,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.429, green: 0.52, blue: 0.591))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage()) {
                                     Text("East Asia")
                                         .fontWeight(.bold)
                                         .font(.title2)
@@ -108,7 +108,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.592, green: 0.637, blue: 0.304))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage()) {
                                     Text("East \nEurope")
                                         .fontWeight(.bold)
                                         .font(.title2)
@@ -136,7 +136,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.833, green: 0.888, blue: 0.515))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage()) {
                                     Text("North \nAmerica")
                                         .fontWeight(.bold)
                                         .font(.title2)
@@ -152,7 +152,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.442, green: 0.207, blue: 0.004))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage()) {
                                     Text("South \nAmerica")
                                         .fontWeight(.bold)
                                         .font(.title2)
@@ -165,7 +165,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.575, green: 0.645, blue: 0.098))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage()) {
                                     Text("South \nAsia")
                                         .fontWeight(.bold)
                                         .font(.title2)
@@ -181,7 +181,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.933, green: 0.638, blue: 0.376))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage()) {
                                     Text("West \nAfrica")
                                         .fontWeight(.bold)
                                         .font(.title2)
@@ -193,7 +193,7 @@ struct ContentView: View {
                                     .frame(width:125, height:125)
                                     .foregroundColor(Color(red: 0.859, green: 0.737, blue: 0.617))
                                     .cornerRadius(15)
-                                Button(action:{}) {
+                                NavigationLink(destination: TestPage()) {
                                     Text("West \nEurope")
                                         .fontWeight(.bold)
                                         .font(.title2)
