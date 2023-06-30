@@ -152,7 +152,7 @@ struct MiddleEast: View {
                                                     .padding(.leading, -10)
                                             }
                                             VStack(alignment: .leading) {
-                                                NavigationLink (destination: TestPage()) {
+                                                NavigationLink (destination: TestPage4()) {
                                                     Text("The Blue Mosque")
                                                         .font(.title2)
                                                         .underline()
@@ -210,3 +210,13 @@ struct MiddleEast_Previews: PreviewProvider {
         MiddleEast()
     }
 }
+
+//* VStack(alignment: .leading) {
+//NavigationLink(destination:RecipeMiddleEast()) {
+ //   Text("Couscous")
+ //       .font(.title2)
+ //       .fontWeight(.semibold)
+    //change to navlink eventally
+   //     .padding(.leading, 10.0)
+    //    .foregroundColor(Color("customBrown"))
+        //.underline()*//
